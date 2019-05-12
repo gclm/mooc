@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.baomidou:mybatis-plus-core:3.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-core/3.1.0/717a0ecacdf5455033fd7f09d4aaacac3a6313a7/mybatis-plus-core-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.baomidou/mybatis-plus-core/3.1.0/e4f3bbfb67524dcfb3a86944f2edbd46ddbb1a2/mybatis-plus-core-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba:druid:1.1.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.alibaba/druid/1.1.16/9488f5d8acd59100eef9a4362b512ec42eec08b/druid-1.1.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.alibaba/druid/1.1.16/3d53ce0264966521056ad03e181e55352ee99fb/druid-1.1.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

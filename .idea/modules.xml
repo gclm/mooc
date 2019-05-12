@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mooc.iml" filepath="$PROJECT_DIR$/mooc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mooc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mooc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mooc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mooc.test.iml" />
+    </modules>
+  </component>
+</project>

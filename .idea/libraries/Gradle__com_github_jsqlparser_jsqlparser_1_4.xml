@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jsqlparser:jsqlparser:1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.github.jsqlparser/jsqlparser/1.4/4899997993506f61e810771f19c67d35de8018e/jsqlparser-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.github.jsqlparser/jsqlparser/1.4/e22c6b95474bbdd1be80da4579d01322ca581407/jsqlparser-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

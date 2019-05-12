@@ -1,0 +1,64 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.4.RELEASE'
+    id 'java'
+    id 'idea'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'club.gclmit.project'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    maven{url 'https://mvnrepository.com/'}
+    maven{url 'https://www.jitpack.io'}
+    maven{url 'https://dev.tencent.com/u/gclm/p/maven-repository/git/raw/master'}
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'mysql:mysql-connector-java'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+    //mybatis plus
+    compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.1.0'
+    testCompile group: 'org.apache.velocity', name: 'velocity-engine-core', version: '2.0'
+    testCompile group: 'com.baomidou', name: 'mybatis-plus-generator', version: '3.1.0'
+
+    // druid
+    compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.16'
+
+    //httpdoc
+    compile group: 'com.github.core-lib.httpdoc', name: 'httpdoc-spring-boot', version: '1.7.5'
+    compile group: 'com.sun', name: 'tools', version: '1.8'
+
+    //  提供 jsoup 支持
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
+    //  提供 httpclient 支持
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.6'
+    //  提供  htmlunit 支持
+    compile group: 'net.sourceforge.htmlunit', name: 'htmlunit', version: '2.33'
+    //  提供缓存组件支持
+    compile group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.6'
+    //  提供 公共基础组件支持
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+}
+
+task copyTask(type: Copy) {
+    from 'src/main/java'
+    into 'out/production/classes'
+}
