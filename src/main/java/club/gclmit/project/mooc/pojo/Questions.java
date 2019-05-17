@@ -22,7 +22,6 @@ import lombok.experimental.Accessors;
  * @since 2019-05-10
  */
 @Data
-@EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
 @TableName("mooc_questions")
 @NoArgsConstructor(access = AccessLevel.PUBLIC)

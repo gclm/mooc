@@ -22,6 +22,7 @@ import java.util.List;
  *
  * @author 孤城落寞
  * @since 2019-05-10
+ * @tag 答题模块
  */
 @Slf4j
 @RestController
@@ -54,8 +55,17 @@ public class QuestionsController {
         }
     }
 
+    /**
+     * 自动添加题库
+     * @details 孤城落寞 2019-05-17 13:20
+     * @param url url 链接
+     * @param cookie cookie
+     * @param referer  响应链接
+     * @return java.lang.String
+     */
     @PostMapping("/question/fastAdd")
     public String fastAdd(String url,String cookie,String referer){
+
         log.info("前台传递参数：\nurl:{} \ncookie:{} \nreferer:{}",url,cookie,referer);
         String content = task.crawlTask(url, cookie, referer);
             if(content != null){
@@ -82,8 +92,15 @@ public class QuestionsController {
         return "题目添加成功!!!!";
     }
 
+    /**
+     * 手动添加题库
+     * @details 孤城落寞 2019-05-17 13:17
+     * @param questions
+     * @return java.lang.String
+     */
     @PostMapping("/question/fromAdd")
     public String fromAdd(@RequestBody Questions questions){
+
         log.info("\n前台传递参数：questions:{} ",questions);
         List<Questions> questionsList = questionsService.list();
         boolean status = questionsList.contains(questions);
