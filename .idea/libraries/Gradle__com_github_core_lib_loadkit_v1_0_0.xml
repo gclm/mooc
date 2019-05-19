@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.core-lib:loadkit:v1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/com/github/core-lib/loadkit/v1.0.0/loadkit-v1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

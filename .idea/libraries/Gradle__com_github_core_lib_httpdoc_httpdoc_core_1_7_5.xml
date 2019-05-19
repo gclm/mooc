@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.core-lib.httpdoc:httpdoc-core:1.7.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.github.core-lib.httpdoc/httpdoc-core/1.7.5/bc2956b0283b3506d463b8969459f995b3bc23b8/httpdoc-core-1.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Dev_Soft/Java/apache-maven-3.6.1/repository/caches/modules-2/files-2.1/com.github.core-lib.httpdoc/httpdoc-core/1.7.5/547ef71de9ddc8a3a0618d4ed72f1f3dfbf6e5f0/httpdoc-core-1.7.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -19,25 +19,27 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.github.core-lib.httpdoc:httpdoc-spring-boot:1.7.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.18.6" level="project" />
+    <orderEntry type="module" module-name="mooc.main" />
+    <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-boot-starter:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:druid-spring-boot-starter:1.1.16" level="project" />
-    <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.core-lib.httpdoc:httpdoc-spring-boot:1.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun:tools:1.8" level="project" />
     <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.11.3" level="project" />
     <orderEntry type="library" name="Gradle: net.sourceforge.htmlunit:htmlunit:2.33" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpmime:4.5.8" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.1.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.1.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.6" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.velocity:velocity-engine-core:2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.26" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-generator:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:8.0.15" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus:3.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: net.sourceforge.htmlunit:htmlunit-core-js:2.33" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.1.4.RELEASE" level="project" />
@@ -47,17 +49,21 @@
     <orderEntry type="library" name="Gradle: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.jayway.jsonpath:json-path:2.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf:3.0.11.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.core-lib.httpdoc:httpdoc-spring-mvc:1.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.core-lib.httpdoc:httpdoc-web:1.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.core-lib.httpdoc:httpdoc-jackson:1.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.core-lib.httpdoc:httpdoc-core:1.7.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.26" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.11" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="library" name="Gradle: xalan:xalan:2.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.8.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-text:1.4" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: net.sourceforge.htmlunit:htmlunit-core-js:2.33" level="project" />
     <orderEntry type="library" name="Gradle: net.sourceforge.htmlunit:neko-htmlunit:2.33" level="project" />
     <orderEntry type="library" name="Gradle: net.sourceforge.htmlunit:htmlunit-cssparser:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-net:commons-net:3.6" level="project" />
@@ -81,8 +87,8 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-generator:3.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpmime:4.5.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.6.2" level="project" />
     <orderEntry type="library" name="Gradle: xalan:serializer:2.7.2" level="project" />
     <orderEntry type="library" name="Gradle: xerces:xercesImpl:2.12.0" level="project" />
@@ -97,7 +103,7 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.yaml:snakeyaml:1.23" level="project" />
-    <orderEntry type="library" name="Gradle: com.sun:tools:1.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.17" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:9.0.17" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:9.0.17" level="project" />
@@ -112,6 +118,8 @@
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.core-lib.httpdoc:httpdoc-ui:1.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.18" level="project" />
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.15.v20190215" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
@@ -122,10 +130,10 @@
     <orderEntry type="library" name="Gradle: org.mybatis:mybatis:3.5.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.jsqlparser:jsqlparser:1.4" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:accessors-smart:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.core-lib:loadkit:v1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-boot-starter:3.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="mooc.main" />
 </module>
