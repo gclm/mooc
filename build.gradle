@@ -20,8 +20,8 @@ repositories {
     mavenLocal()
     maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     maven{url 'https://mvnrepository.com/'}
-    maven{url 'https://www.jitpack.io'}
-    maven{url 'https://dev.tencent.com/u/gclm/p/maven-repository/git/raw/master'}
+    // maven{url 'https://www.jitpack.io'}
+    // maven{url 'https://dev.tencent.com/u/gclm/p/maven-repository/git/raw/master'}
     mavenCentral()
 }
 
